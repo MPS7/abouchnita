@@ -1,0 +1,711 @@
+// Peer-reviewed bibliography transcribed from Anass Bouchnita's CV (October 2026).
+// J1–J55: journal articles; P1–P7: peer-reviewed conference proceedings.
+const publications = [
+ {
+  "id": "J55",
+  "year": 2026,
+  "title": "Sustainable Autoclaved Aerated Concrete Production Strategies Using a Hybrid Discrete-Event Simulation and Machine-Learning Surrogate Framework",
+  "authors": "Amoo, S. N., Attajer, A., Zaid, I., Bouchnita, A.",
+  "journal": "Sustainability",
+  "citation": "18(15), 7860",
+  "area": "other",
+  "url": "https://doi.org/10.3390/su18157860",
+  "kind": "journal"
+ },
+ {
+  "id": "J54",
+  "year": 2026,
+  "title": "Emerging mathematical approaches to blood coagulation and clot formation under flow: From constitutive biophysical laws to integrative multiscale models",
+  "authors": "Belyaev, A. V., Bouchnita, A., Volpert, V.",
+  "journal": "Biophysics Reviews",
+  "citation": "7(2)",
+  "area": "cardio",
+  "url": "https://doi.org/10.1063/5.0285157",
+  "kind": "journal"
+ },
+ {
+  "id": "J53",
+  "year": 2026,
+  "title": "A multiscale model reveals how ERK/p38-regulated dormancy shapes tumor-immune dynamics and immunoediting outcomes",
+  "authors": "Baffoe, E. N., Bouchnita, A.",
+  "journal": "Frontiers in Immunology",
+  "citation": "17, 1861769",
+  "area": "cancer",
+  "url": "https://doi.org/10.3389/fimmu.2026.1861769",
+  "kind": "journal"
+ },
+ {
+  "id": "J52",
+  "year": 2026,
+  "title": "A Genotype-Structured PDE Model of Vaccine-Induced Control of Variant Emergence",
+  "authors": "Bouchnita, A., Djafari-Rouhani, B.",
+  "journal": "Axioms",
+  "citation": "15(2), 128",
+  "area": "infection",
+  "url": "https://doi.org/10.3390/axioms15020128",
+  "kind": "journal"
+ },
+ {
+  "id": "J51",
+  "year": 2025,
+  "title": "Estimated impact of 2022–2023 influenza vaccines on annual hospital burden in the United States",
+  "authors": "Bi, K., Bandekar, S. R., Bouchnita, A., Cramer, A., Fox, S. J., Borchering, R. K. , … Meyers, L. A.",
+  "journal": "Proceedings of the National Academy of Sciences",
+  "citation": "122(46), e2505175122",
+  "area": "infection",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12646225/",
+  "kind": "journal"
+ },
+ {
+  "id": "J50",
+  "year": 2025,
+  "title": "Intracellular ISG-virus interactions determine viral infection severity and persistence",
+  "authors": "Bouchnita, A., Volpert, V.",
+  "journal": "Journal of Theoretical Biology",
+  "citation": "112251",
+  "area": "infection",
+  "url": "https://doi.org/10.1016/j.jtbi.2025.112251",
+  "kind": "journal"
+ },
+ {
+  "id": "J49",
+  "year": 2025,
+  "title": "Scenario Projections of COVID-19 Burden in the US, 2024-2025",
+  "authors": "Loo, S. L., Jung, S. M., Contamin, L., Howerton, E., Bents, S. J., Hochheiser, H. , … Truelove, S.",
+  "journal": "JAMA Network Open",
+  "citation": "8(9), e2532469",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J48",
+  "year": 2025,
+  "title": "Sustainable Supply Chain Strategies for Modular-Integrated Construction Using a Hybrid Multi-Agent–Deep Learning Approach",
+  "authors": "Attajer, A., Mecheri, B., Hadbi, I., Amoo, S. N., Bouchnita, A.",
+  "journal": "Sustainability",
+  "citation": "17(12), 5434",
+  "area": "other",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J47",
+  "year": 2025,
+  "title": "The interplay between evolutionary and immunological dynamics regulates virus variant emergence and competition",
+  "authors": "Bouchnita, A., Bandekar, S. R., Bi, K., Rouhani, B. D., Fox, S. J., Garcia, J. A.",
+  "journal": "Mathematical Modelling of Natural Phenomena",
+  "citation": "20, 14",
+  "area": "infection",
+  "url": "https://doi.org/10.1051/mmnp/2025006",
+  "kind": "journal"
+ },
+ {
+  "id": "J46",
+  "year": 2025,
+  "title": "Annual Hospitalizations for COVID-19, Influenza, and Respiratory Syncytial Virus, United States, 2023–2024",
+  "authors": "Bi, K., Bandekar, S. R., Bouchnita, A., Fox, S. J., Meyers, L. A.",
+  "journal": "Emerging Infectious Diseases",
+  "citation": "31(3), 636",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J45",
+  "year": 2025,
+  "title": "Genotype-Structured Modeling of Variant Emergence and Its Impact on Virus Infection",
+  "authors": "Bouchnita, A.",
+  "journal": "Mathematics",
+  "citation": "13(1), 167",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J44",
+  "year": 2025,
+  "title": "Exploring the spatial effects influencing the EGFR/ERK pathway dynamics with machine learning surrogate models",
+  "authors": "Garcia, J. A., Bouchnita, A.",
+  "journal": "BioSystems",
+  "citation": "247, 105360",
+  "area": "methods",
+  "url": "https://doi.org/10.1016/j.biosystems.2024.105360",
+  "kind": "journal"
+ },
+ {
+  "id": "J43",
+  "year": 2024,
+  "title": "Integrating Genomic, Climatic, and Immunological Factors to Analyze Seasonal Patterns of Influenza Variants",
+  "authors": "Bouchnita, A., Djafari-Rouhani, B.",
+  "journal": "Symmetry",
+  "citation": "16(8), 943",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J42",
+  "year": 2024,
+  "title": "Multiphase patient-specific simulations to study fibrillation-induced thrombosis in the left atrial appendage",
+  "authors": "Bouchnita, A., Volpert, V., Kozulinas, N., Belyaev, A. V., Panasenko, G.",
+  "journal": "Physics of Fluids",
+  "citation": "36(7)",
+  "area": "cardio",
+  "url": "https://doi.org/10.1063/5.0216196",
+  "kind": "journal"
+ },
+ {
+  "id": "J41",
+  "year": 2024,
+  "title": "Intraplatelet Calcium Signaling Regulates Thrombus Growth under Flow: Insights from a Multiscale Model",
+  "authors": "Bouchnita, A., Volpert, V.",
+  "journal": "Computation",
+  "citation": "12(5), 99",
+  "area": "cardio",
+  "url": "https://doi.org/10.3390/computation12050099",
+  "kind": "journal"
+ },
+ {
+  "id": "J40",
+  "year": 2024,
+  "title": "Potential impact of annual vaccination with reformulated COVID-19 vaccines: lessons from the US COVID-19 Scenario Modeling Hub",
+  "authors": "Jung, S. M., Loo, S. L., Howerton, E., Contamin, L., Smith, C. P., Carcelén, E. C. , … Lessler, J.",
+  "journal": "PLOS Medicine",
+  "citation": "21(4), e1004387",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J39",
+  "year": 2024,
+  "title": "Projecting Omicron scenarios in the US while tracking population-level immunity",
+  "authors": "Bouchnita, A., Bi, K., Fox, S. J., Meyers, L. A.",
+  "journal": "Epidemics",
+  "citation": "46, 100746",
+  "area": "infection",
+  "url": "https://doi.org/10.1016/j.epidem.2024.100746",
+  "kind": "journal"
+ },
+ {
+  "id": "J38",
+  "year": 2024,
+  "title": "Phenotype-structured model of intra-clonal heterogeneity and drug resistance in multiple myeloma",
+  "authors": "Bouchnita, A., Volpert, V.",
+  "journal": "Journal of Theoretical Biology",
+  "citation": "576, 111652",
+  "area": "cancer",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J37",
+  "year": 2023,
+  "title": "Evaluation of the US COVID-19 Scenario Modeling Hub for informing pandemic response under uncertainty",
+  "authors": "Howerton, E., Contamin, L., Mullany, L. C., Qin, M., Reich, N. G., Bents, S. , … Lessler, J.",
+  "journal": "Nature Communications",
+  "citation": "14(1), 7260",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J36",
+  "year": 2023,
+  "title": "Thrombin Generation Thresholds for Coagulation Initiation under Flow",
+  "authors": "Bouchnita, A., Yadav, K., Llored, J. P., Gurovich, A., Volpert, V.",
+  "journal": "Axioms",
+  "citation": "12(9), 873",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J35",
+  "year": 2023,
+  "title": "Equitable bivalent booster allocation strategies against emerging SARS-CoV-2 variants in US cities with large Hispanic communities: The case of El Paso County, Texas",
+  "authors": "Owusu-Dampare, F., Bouchnita, A.",
+  "journal": "Infectious Disease Modelling",
+  "citation": "8(3), 912-919",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J34",
+  "year": 2023,
+  "title": "Modelling of the Innate and Adaptive Immune Response to SARS Viral Infection, Cytokine Storm and Vaccination",
+  "authors": "Leon, C., Tokarev, A., Bouchnita, A., Volpert, V.",
+  "journal": "Vaccines",
+  "citation": "11(1), 127",
+  "area": "infection",
+  "url": "https://doi.org/10.3390/vaccines11010127",
+  "kind": "journal"
+ },
+ {
+  "id": "J33",
+  "year": 2023,
+  "title": "Combining Computational Modelling and Machine Learning to Identify COVID-19 Patients with a High Thromboembolism Risk",
+  "authors": "Bouchnita, A., Mozokhina, A., Nony, P., Llored, J.-P., Volpert, V.",
+  "journal": "Mathematics",
+  "citation": "11(2), 289",
+  "area": "cardio",
+  "url": "https://doi.org/10.3390/math11020289",
+  "kind": "journal"
+ },
+ {
+  "id": "J32",
+  "year": 2023,
+  "title": "Estimating the Risk of Contracting COVID-19 in Different Settings Using a Multiscale Transmission Dynamics Model",
+  "authors": "Kanté, D. S. I., Jebrane, A., Bouchnita, A., Hakim, A.",
+  "journal": "Mathematics",
+  "citation": "11(1), 254",
+  "area": "infection",
+  "url": "https://doi.org/10.3390/math11010254",
+  "kind": "journal"
+ },
+ {
+  "id": "J31",
+  "year": 2022,
+  "title": "Altered developmental programs and oriented cell divisions lead to bulky bones during salamander limb regeneration",
+  "authors": "Kaucka, M., Joven Araus, A., Tesarova, M., Currie, J. D., Boström, J., Kavkova, M. , … Adameyko, I.",
+  "journal": "Nature Communications",
+  "citation": "13(1), 1-17",
+  "area": "other",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J30",
+  "year": 2022,
+  "title": "Surface flow for colonial integration in reef-building corals",
+  "authors": "Bouderlique, T., Petersen, J., Faure, L., Abed-Navandi, D., Bouchnita, A., Mueller, B., Nazarov, M., Englmaier, L., Tesarova, M., Frade, P. R., Zikmund, T., Koehne, T., Kaiser, J., Fried, K., Wild, C., Pantos, O., Hellander, A., Bythell, J., Adameyko, I.",
+  "journal": "Current Biology",
+  "citation": "32(12), 2596–2609.e7",
+  "area": "other",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J29",
+  "year": 2022,
+  "title": "Combining mathematical modelling and deep learning to make rapid and explainable predictions of the patient-specific response to anticoagulant therapy under venous flow",
+  "authors": "Bouchnita, A., Nony, P., Llored, J.-P., Belyaev, A., Volpert, V.",
+  "journal": "Mathematical Biosciences",
+  "citation": "349, 108830",
+  "area": "cardio",
+  "url": "https://doi.org/10.1016/j.mbs.2022.108830",
+  "kind": "journal"
+ },
+ {
+  "id": "J28",
+  "year": 2022,
+  "title": "Living in darkness: Exploring adaptation of Proteus anguinus in 3 dimensions by X-ray imaging",
+  "authors": "Tesařová, M., Mancini, L., Mauri, E., Aljančič, G., Năpăruş-Aljančič, M., Kostanjšek, R. , … Kaiser, J.",
+  "journal": "GigaScience",
+  "citation": "11",
+  "area": "other",
+  "url": "https://doi.org/10.1093/gigascience/giac030",
+  "kind": "journal"
+ },
+ {
+  "id": "J27",
+  "year": 2021,
+  "title": "Blood Clotting Decreases Pulmonary Circulation during the Coronavirus Disease",
+  "authors": "Mozokhina, A., Bouchnita, A., Volpert, V.",
+  "journal": "Mathematics",
+  "citation": "9(19), 2401",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J26",
+  "year": 2021,
+  "title": "Multiphase continuum modeling of thrombosis in aneurysms and recirculation zones",
+  "authors": "Bouchnita, A., Belyaev, A. V., Volpert, V.",
+  "journal": "Physics of Fluids",
+  "citation": "33(9), 093314",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J25",
+  "year": 2021,
+  "title": "Patient-Specific Modelling of Blood Coagulation",
+  "authors": "Ratto, N., Bouchnita, A., Chelle, P., Marion, M., Panteleev, M., Nechipurenko, D., Tardy-Poncet, B., Volpert, V.",
+  "journal": "Bulletin of Mathematical Biology",
+  "citation": "83(5), 1-31",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J24",
+  "year": 2020,
+  "title": "Mathematical Modeling Predicts That Strict Social Distancing Measures Would Be Needed to Shorten the Duration of Waves of COVID-19 Infections in Vietnam",
+  "authors": "Bouchnita, A., Chekroun, A., Jebrane, A.",
+  "journal": "Frontiers in Public Health",
+  "citation": "8",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J23",
+  "year": 2020,
+  "title": "A hybrid multi-scale model of COVID-19 transmission dynamics to assess the potential of non-pharmaceutical interventions",
+  "authors": "Bouchnita, A., Jebrane, A.",
+  "journal": "Chaos, Solitons & Fractals",
+  "citation": "109941",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J22",
+  "year": 2020,
+  "title": "A multi-scale model quantifies the impact of limited movement of the population and mandatory wearing of face masks in containing the COVID-19 epidemic in Morocco",
+  "authors": "Bouchnita, A., Jebrane, A.",
+  "journal": "Mathematical Modelling of Natural Phenomena",
+  "citation": "15, 31",
+  "area": "infection",
+  "url": "https://doi.org/10.1051/mmnp/2020016",
+  "kind": "journal"
+ },
+ {
+  "id": "J21",
+  "year": 2020,
+  "title": "Impact of force function formulations on the numerical simulation of centre-based models",
+  "authors": "Mathias, S., Coulier, A., Bouchnita, A., Hellander, A.",
+  "journal": "Bulletin of Mathematical Biology",
+  "citation": "82(10), 1-43",
+  "area": "methods",
+  "url": "https://doi.org/10.1007/s11538-020-00810-2",
+  "kind": "journal"
+ },
+ {
+  "id": "J20",
+  "year": 2020,
+  "title": "A mathematical model to quantify the effects of platelet count, shear rate, and injury size on the initiation of blood coagulation under venous flow conditions",
+  "authors": "Bouchnita, A., Terekhov, K., Nony, P., Vassilevski, Y., Volpert, V.",
+  "journal": "PLOS ONE",
+  "citation": "15(7), e0235392",
+  "area": "cardio",
+  "url": "https://doi.org/10.1371/journal.pone.0235392",
+  "kind": "journal"
+ },
+ {
+  "id": "J19",
+  "year": 2020,
+  "title": "A multiscale model to design therapeutic strategies that overcome drug resistance to tyrosine kinase inhibitors in multiple myeloma",
+  "authors": "Bouchnita, A., Volpert, V., Koury, M. J., Hellander, A.",
+  "journal": "Mathematical Biosciences",
+  "citation": "319, 108293",
+  "area": "cancer",
+  "url": "https://doi.org/10.1016/j.mbs.2019.108293",
+  "kind": "journal"
+ },
+ {
+  "id": "J18",
+  "year": 2019,
+  "title": "Spatial lymphocyte dynamics in lymph nodes predicts the CTL frequency needed for HIV infection control",
+  "authors": "Grebennikov, D., Bouchnita, A., Volpert, V., Bessonov, N., Meyerhans, A., Bocharov, G.",
+  "journal": "Frontiers in Immunology",
+  "citation": "10, 1213",
+  "area": "infection",
+  "url": "https://doi.org/10.3389/fimmu.2019.01213",
+  "kind": "journal"
+ },
+ {
+  "id": "J17",
+  "year": 2019,
+  "title": "A 3D Multiscale Model to Explore the Role of EGFR Overexpression in Tumourigenesis",
+  "authors": "Bouchnita, A., Hellander, S., Hellander, A.",
+  "journal": "Bulletin of Mathematical Biology",
+  "citation": "81(7), 2323-2344",
+  "area": "cancer",
+  "url": "https://doi.org/10.1007/s11538-019-00607-y",
+  "kind": "journal"
+ },
+ {
+  "id": "J16",
+  "year": 2019,
+  "title": "Mathematical modeling reveals that the administration of EGF can promote the elimination of lymph node metastases by PD-1/PD-L1 blockade",
+  "authors": "Benchaib, M. A., Bouchnita, A., Volpert, V., Makhoute, A.",
+  "journal": "Frontiers in Bioengineering and Biotechnology",
+  "citation": "7",
+  "area": "cancer",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J15",
+  "year": 2019,
+  "title": "Hybrid models in biomedical applications",
+  "authors": "Bessonov, N. M., Bocharov, G. A., Bouchnita, A., Volpert, V. A.",
+  "journal": "Computer Research and Modeling",
+  "citation": "11(2), 287-309",
+  "area": "methods",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J14",
+  "year": 2019,
+  "title": "A multiscale model of platelet-fibrin thrombus growth in the flow",
+  "authors": "Bouchnita, A., Volpert, V.",
+  "journal": "Computers & Fluids",
+  "citation": "184, 10-20",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J13",
+  "year": 2017,
+  "title": "Modeling of the effects of IL-17 and TNF-α on endothelial cells and thrombus growth",
+  "authors": "Bouchnita, A., Miossec, P., Tosenberger, A., Volpert, V.",
+  "journal": "Comptes Rendus Biologies",
+  "citation": "340(11), 456-473",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J12",
+  "year": 2017,
+  "title": "Reaction-diffusion waves of blood coagulation",
+  "authors": "Galochkina, T., Bouchnita, A., Kurbatova, P., Volpert, V.",
+  "journal": "Mathematical Biosciences",
+  "citation": "288, 130-139",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J11",
+  "year": 2017,
+  "title": "A Hybrid Computation Model to Describe the Progression of Multiple Myeloma and Its Intra-Clonal Heterogeneity",
+  "authors": "Bouchnita, A., Belmaati, F. E., Aboulaich, R., Koury, M. J., Volpert, V.",
+  "journal": "Computation",
+  "citation": "5(1), 16",
+  "area": "cancer",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J10",
+  "year": 2017,
+  "title": "Towards a Multiscale Model of Acute HIV Infection",
+  "authors": "Bouchnita, A., Bocharov, G., Meyerhans, A., Volpert, V.",
+  "journal": "Computation",
+  "citation": "5(1), 6",
+  "area": "infection",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J9",
+  "year": 2017,
+  "title": "Hybrid approach to model the spatial regulation of T cell responses",
+  "authors": "Bouchnita, A., Bocharov, G., Meyerhans, A., Volpert, V.",
+  "journal": "BMC Immunology",
+  "citation": "18(1), 29",
+  "area": "infection",
+  "url": "https://doi.org/10.1186/s12865-017-0205-0",
+  "kind": "journal"
+ },
+ {
+  "id": "J8",
+  "year": 2016,
+  "title": "Mathematics of Pharmacokinetics and Pharmacodynamics: Diversity of Topics, Models and Methods",
+  "authors": "Bocharov, G., Bouchnita, A., Clairambault, J., Volpert, V.",
+  "journal": "Mathematical Modelling of Natural Phenomena",
+  "citation": "11(6), 1-8",
+  "area": "methods",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J7",
+  "year": 2016,
+  "title": "An individualized blood coagulation model to predict INR therapeutic range during warfarin treatment",
+  "authors": "Bouchnita, A., Bouzaachane, K., Galochkina, T., Kurbatova, P., Nony, P., Volpert, V.",
+  "journal": "Mathematical Modelling of Natural Phenomena",
+  "citation": "11(6), 28-44",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J6",
+  "year": 2016,
+  "title": "Conditions of microvessel occlusion for blood coagulation in flow",
+  "authors": "Bouchnita, A., Galochkina, T., Kurbatova, P., Nony, P., Volpert, V.",
+  "journal": "International Journal for Numerical Methods in Biomedical Engineering",
+  "citation": "",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J5",
+  "year": 2016,
+  "title": "Traveling wave solutions in the mathematical model of blood coagulation",
+  "authors": "Galochkina, T., Ouzzane, H., Bouchnita, A., Volpert, V.",
+  "journal": "Applicable Analysis",
+  "citation": "1-15",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J4",
+  "year": 2016,
+  "title": "Influence of Antithrombin on the Regimes of Blood Coagulation: Insights from the Mathematical Model",
+  "authors": "Bouchnita, A., Galochkina, T., Volpert, V.",
+  "journal": "Acta Biotheoretica",
+  "citation": "1-16",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J3",
+  "year": 2016,
+  "title": "Multi-scale Modelling of Erythropoiesis and Hemoglobin Production",
+  "authors": "Bouchnita, A., Rocca, A., Fanchon, E., Koury, M. J., Moulis, J. M., Volpert, V.",
+  "journal": "Journal of Inorganic and Organometallic Polymers and Materials",
+  "citation": "26(6), 1362-1379",
+  "area": "cancer",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J2",
+  "year": 2016,
+  "title": "Bone marrow infiltration by multiple myeloma causes anemia by reversible disruption of erythropoiesis",
+  "authors": "Bouchnita, A., Eymard, N., Moyo, T. K., Koury, M. J., Volpert, V.",
+  "journal": "American Journal of Hematology",
+  "citation": "91(4), 371–378",
+  "area": "cancer",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "J1",
+  "year": 2016,
+  "title": "On the regimes of blood coagulation",
+  "authors": "Bouchnita, A., Tosenberger, A., Volpert, V.",
+  "journal": "Applied Mathematics Letters",
+  "citation": "51, 74-79",
+  "area": "cardio",
+  "url": "",
+  "kind": "journal"
+ },
+ {
+  "id": "P7",
+  "year": 2024,
+  "title": "Enhanced Deep Reinforcement Learning for Selective Maintenance with Learning Effects",
+  "authors": "Achamrah, F. E., Attajer, A., Bouchnita, A., Krimi, I.",
+  "journal": "2024 IEEE International Conference on Technology Management, Operations and Decisions (ICTMOD)",
+  "citation": "pp. 1–6",
+  "area": "methods",
+  "kind": "proceedings",
+  "url": ""
+ },
+ {
+  "id": "P6",
+  "year": 2020,
+  "title": "A Contact-Structured SEIR Model to Assess the Impact of Lockdown Measures on the Spread of COVID-19 in Morocco’s Population",
+  "authors": "Mouvoh, A., Bouchnita, A., Jebrane, A.",
+  "journal": "2020 IEEE International Conference on Electronics, Control, Optimization and Computer Science (ICECOCS)",
+  "citation": "",
+  "area": "infection",
+  "kind": "proceedings",
+  "url": ""
+ },
+ {
+  "id": "P5",
+  "year": 2016,
+  "title": "Mathematical modelling of intra-clonal heterogeneity in multiple myeloma",
+  "authors": "Bouchnita, A., Belmaati, F. E., Aboulaich, R., Ellaia, R., Volpert, V.",
+  "journal": "CARI, Hammamet, Tunisia",
+  "citation": "",
+  "area": "cancer",
+  "kind": "proceedings",
+  "url": ""
+ },
+ {
+  "id": "P4",
+  "year": 2016,
+  "title": "Normal erythropoiesis and development of multiple myeloma",
+  "authors": "Bouchnita, A., Eymard, N., Moyo, T., Koury, M., Volpert, V.",
+  "journal": "ITM Web of Conferences, Vol. 5",
+  "citation": "",
+  "area": "cancer",
+  "kind": "proceedings",
+  "url": ""
+ },
+ {
+  "id": "P3",
+  "year": 2015,
+  "title": "Effects of Bone Marrow Infiltration By Multiple Myeloma on Erythropoiesis",
+  "authors": "Moyo, T. K., Bouchnita, A., Eymard, N., Volpert, V., Koury, M. J.",
+  "journal": "Blood, American Society of Hematology",
+  "citation": "",
+  "area": "cancer",
+  "kind": "proceedings",
+  "url": ""
+ },
+ {
+  "id": "P2",
+  "year": 2015,
+  "title": "Numerical simulations of thrombosis development in blood flow",
+  "authors": "Bouchnita, A., Kurbatova, P., Tosenberger, A., Nony, P., Volpert, V.",
+  "journal": "CMBE, Paris, France",
+  "citation": "",
+  "area": "cardio",
+  "kind": "proceedings",
+  "url": ""
+ },
+ {
+  "id": "P1",
+  "year": 2014,
+  "title": "Initiation of erythropoiesis by BFU-E cells",
+  "authors": "Bouchnita, A., Eymard, N., Koury, M., Volpert, V.",
+  "journal": "ITM Web of Conferences, Vol. 4, WMLS 2014",
+  "citation": "01002",
+  "area": "cancer",
+  "kind": "proceedings",
+  "url": ""
+ }
+];
+const areaLabels = {cancer:'Cancer & cell dynamics',cardio:'Cardiovascular systems',infection:'Immunity & infection',other:'Interdisciplinary',methods:'Methods & AI'};
+const safe = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function scholarUrl(title){return 'https://scholar.google.com/scholar?q='+encodeURIComponent('"'+title+'"');}
+function renderPublications(){
+ const target=document.getElementById('pubList'); if(!target)return;
+ const query=(document.getElementById('pubSearch')?.value||'').toLocaleLowerCase().trim();
+ const area=document.getElementById('pubFilter')?.value||'all';
+ const kind=document.getElementById('pubKind')?.value||'journal';
+ const records=publications.filter(p=>(kind==='all'||p.kind===kind)&&(area==='all'||p.area===area)&&
+ [p.year,p.title,p.authors,p.journal,p.citation,p.id].join(' ').toLocaleLowerCase().includes(query)).sort((a,b)=>b.year-a.year || (a.kind===b.kind ? Number(b.id.slice(1))-Number(a.id.slice(1)) : a.kind==='journal' ? -1 : 1));
+ const groups=new Map();
+ for(const record of records){const y=String(record.year);if(!groups.has(y))groups.set(y,[]);groups.get(y).push(record);}
+ target.innerHTML=Array.from(groups).map(([year,items])=>`<section class="pub-year-group" aria-label="Publications from ${year}"><h2 class="pub-year-heading">${year} <span>${items.length} ${items.length===1?'record':'records'}</span></h2>${items.map(p=>{
+ const url=p.url||scholarUrl(p.title); const linkLabel=p.url?'Read publication':'Find publication';
+ return `<article class="pub-item"><div class="pub-entry-number">${safe(p.id)}</div><div class="pub-body"><h3><a class="pub-title-link" href="${safe(url)}" target="_blank" rel="noopener noreferrer">${safe(p.title)} <span aria-hidden="true">↗</span></a></h3><p class="pub-authors">${safe(p.authors)}</p><p class="pub-citation"><em>${safe(p.journal)}</em>${p.citation?', '+safe(p.citation):''}.</p><div class="pub-meta"><span>${safe(areaLabels[p.area])}</span>${p.kind==='proceedings'?'<span>Conference proceeding</span>':''}<a href="${safe(url)}" target="_blank" rel="noopener noreferrer">${linkLabel} ↗</a></div></div></article>`;}).join('')}</section>`).join('') || '<p class="no-results">No matching publications. Try another term or filter.</p>';
+ const label=(kind==='journal'?'journal articles':kind==='proceedings'?'conference proceedings':'journal articles and proceedings');
+ document.getElementById('pubCount').textContent=`Showing ${records.length} of ${publications.filter(p=>kind==='all'||p.kind===kind).length} ${label} from the CV.`;
+}
+for (const id of ['pubSearch','pubFilter','pubKind']) {const el=document.getElementById(id);if(el)el.addEventListener(id==='pubSearch'?'input':'change',renderPublications);}
+renderPublications();
+const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav');
+if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');toggle.setAttribute('aria-expanded',String(open))});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');toggle.setAttribute('aria-expanded','false')}));}
+const yearNode=document.getElementById('year'); if(yearNode)yearNode.textContent=new Date().getFullYear();
+const researchMenu=document.querySelector('.research-menu');
+if(researchMenu){document.addEventListener('keydown',e=>{if(e.key==='Escape'){researchMenu.open=false;nav?.classList.remove('is-open');toggle?.setAttribute('aria-expanded','false')}});document.addEventListener('click',e=>{if(!researchMenu.contains(e.target))researchMenu.open=false});}
